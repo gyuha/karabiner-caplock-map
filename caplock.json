@@ -6,7 +6,7 @@
   "author": "Gyuha(nicegyuha@gmail.com)",
   "website": "https://github.com/gyuha/karabiner-caplock-map",
   "json_url": "https://github.com/gyuha/karabiner-caplock-map",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/gyuha/karabiner-caplock-map",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/caplock.json",
   "gallery_url": "https://ke-complex-modifications.pqrs.org/#emulation-modes",
   "repo": "https://github.com/gyuha/karabiner-caplock-map",
   "rules": [
