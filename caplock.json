@@ -47,14 +47,57 @@
           ]
         },
         {
-          "description": "language switch == right option",
+          "description": "language switch = right option",
           "type": "basic",
           "from": {
-            "key_code": "right_option"
+            "key_code": "right_option",
+            "modifiers": {
+              "optional": ["any"]
+            }
           },
           "to": [
             {
               "key_code": "caps_lock"
+            }
+          ]
+        },
+        {
+          "description": "alt + tab = command + tab",
+          "type": "basic",
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            "key_code": "tab",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
+            }
+          ]
+        },
+        {
+          "description": "ctrl + w -> command + w",
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
             }
           ]
         }
