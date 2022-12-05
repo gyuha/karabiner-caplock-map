@@ -14,6 +14,36 @@
       "description": "CapsLock to Hyper",
       "manipulators": [
         {
+          "description": "letf_control -> left_command",
+          "type": "basic",
+          "from": {
+            "key_code": "left_control",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command"
+            }
+          ]
+        },
+        {
+          "description": "letf_command -> left_control",
+          "type": "basic",
+          "from": {
+            "key_code": "left_command",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ]
+        },
+        {
           "description": "capslock = esc(click) | hyper(hold)",
           "type": "basic",
           "from": {
@@ -1226,9 +1256,7 @@
           "to": [
             {
               "key_code": "delete_or_backspace",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ]
         },
@@ -1250,9 +1278,7 @@
           "to": [
             {
               "key_code": "delete_or_backspace",
-              "modifiers": [
-                "left_command"
-              ]
+              "modifiers": ["left_command"]
             }
           ]
         }
