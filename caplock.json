@@ -11,16 +11,13 @@
   "repo": "https://github.com/gyuha/karabiner-caplock-map",
   "rules": [
     {
-      "description": "CapsLock to Hyper",
+      "description": "letf_command to left_control",
       "manipulators": [
         {
           "description": "letf_control -> left_command",
           "type": "basic",
           "from": {
-            "key_code": "left_control",
-            "modifiers": {
-              "optional": ["any"]
-            }
+            "key_code": "left_control"
           },
           "to": [
             {
@@ -32,17 +29,19 @@
           "description": "letf_command -> left_control",
           "type": "basic",
           "from": {
-            "key_code": "left_command",
-            "modifiers": {
-              "optional": ["any"]
-            }
+            "key_code": "left_command"
           },
           "to": [
             {
               "key_code": "left_control"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "description": "CapsLock to Hyper",
+      "manipulators": [
         {
           "description": "capslock = esc(click) | hyper(hold)",
           "type": "basic",
