@@ -25,4 +25,6 @@ edit : http://www.keyboard-layout-editor.com/
 
 `시스템 설정 > 키보드 > 키보드 단축키 > 입력 소스` 에서 아래와 같이 변경 해 줍니다.
 
+![[Pasted image 20221206141644.png]]
+
 - [한영키 전환 바꾸기](https://taro.finjoy.net/entry/m1-%EB%A7%A5%EB%B6%81-%ED%95%9C%EC%98%81-%EC%A0%84%ED%99%98-%EB%8A%90%EB%A0%A4%EC%84%9C-%EC%A7%9C%EC%A6%9D-%EB%82%9C%EB%8B%A4%EB%A9%B4-%EB%91%90%EA%B0%80%EC%A7%80-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)
