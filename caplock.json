@@ -596,6 +596,227 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Like windows",
+      "rules": [
+        {
+          "description": "Ctrl+x => Cmd+x",
+          "manipulators": [
+            {
+              "from": {
+                "key_code": "x",
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                }
+              },
+              "to": [
+                {
+                  "key_code": "x",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ],
+              "type": "basic"
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+c => Cmd+c",
+          "manipulators": [
+            {
+              "from": {
+                "key_code": "c",
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                }
+              },
+              "to": [
+                {
+                  "key_code": "c",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ],
+              "type": "basic"
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+v => Cmd+v",
+          "manipulators": [
+            {
+              "from": {
+                "key_code": "v",
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                }
+              },
+              "to": [
+                {
+                  "key_code": "v",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ],
+              "type": "basic"
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+z => Cmd+z",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "z"
+              },
+              "to": [
+                {
+                  "key_code": "z",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+q => Cmd+q",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "q"
+              },
+              "to": [
+                {
+                  "key_code": "q",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+w => Cmd+w",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "w"
+              },
+              "to": [
+                {
+                  "key_code": "w",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+a => Cmd+a",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "a"
+              },
+              "to": [
+                {
+                  "key_code": "a",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+l => Cmd+l",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "l"
+              },
+              "to": [
+                {
+                  "key_code": "l",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Cmd+c => Ctrl+c",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_command"
+                  ]
+                },
+                "key_code": "c"
+              },
+              "to": [
+                {
+                  "key_code": "c",
+                  "modifiers": [
+                    "right_control"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
