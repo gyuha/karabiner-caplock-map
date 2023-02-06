@@ -745,6 +745,54 @@
           ]
         },
         {
+          "description": "Ctrl+t => Cmd+t",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "t"
+              },
+              "to": [
+                {
+                  "key_code": "t",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Ctrl+r => Cmd+r",
+          "manipulators": [
+            {
+              "type": "basic",
+              "from": {
+                "modifiers": {
+                  "mandatory": [
+                    "right_control"
+                  ]
+                },
+                "key_code": "r"
+              },
+              "to": [
+                {
+                  "key_code": "r",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "description": "Ctrl+a => Cmd+a",
           "manipulators": [
             {
