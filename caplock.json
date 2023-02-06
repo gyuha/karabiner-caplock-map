@@ -46,7 +46,7 @@
           "description": "right_command to f19",
           "type": "basic",
           "from": {
-            "key_code": "right_option"
+            "key_code": "right_command"
           },
           "to": [
             {
