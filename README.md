@@ -1,6 +1,8 @@
 # karabiner-caplock-map
 
-Github Import URL : [karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/caplock.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/caplock.json)
+Github Import URL : 
+ - [vim keymap](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/caplock.json)
+ - [pc-sytle keymap](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/pc-style.json)
 
 
 ## Keyboard layout
