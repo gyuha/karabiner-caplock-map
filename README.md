@@ -1,12 +1,22 @@
 # karabiner-caplock-map
 
-Github Import URL : 
- - karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/caplock.json
- - karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/pc-style.json
+---
+## Vim keymap
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/caplock.json
+```
+ Open the above URL in a web browser. 
+
+---
+## PC Style
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/pc-style.json
+```
 
  Open the above URL in a web browser. 
 
 
+---
 ## Keyboard layout
 
 ![keyboard](https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/keyboard-layout.png)
