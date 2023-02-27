@@ -11,35 +11,6 @@
   "repo": "https://github.com/gyuha/karabiner-caplock-map",
   "rules": [
     {
-      "description": "Letf_command to left_control switch",
-      "manipulators": [
-        {
-          "description": "letf_control -> left_command",
-          "type": "basic",
-          "from": {
-            "key_code": "left_control"
-          },
-          "to": [
-            {
-              "key_code": "left_command"
-            }
-          ]
-        },
-        {
-          "description": "letf_command -> left_control",
-          "type": "basic",
-          "from": {
-            "key_code": "left_command"
-          },
-          "to": [
-            {
-              "key_code": "left_control"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "description": "Right_command and right_alt to F19 switch",
       "manipulators": [
         {
