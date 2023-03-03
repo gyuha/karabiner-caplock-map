@@ -663,7 +663,8 @@
                                 "^org\\.gnu\\.Emacs$",
                                 "^org\\.gnu\\.AquamacsEmacs$",
                                 "^org\\.gnu\\.Aquamacs$",
-                                "^org\\.pqrs\\.unknownapp.conkeror$"
+                                "^org\\.pqrs\\.unknownapp.conkeror$",
+                                "^com\\.neovide\\.neovide"
                             ]
                         }
                     ]
@@ -1036,7 +1037,8 @@
                                 "^org\\.gnu\\.Emacs$",
                                 "^org\\.gnu\\.AquamacsEmacs$",
                                 "^org\\.gnu\\.Aquamacs$",
-                                "^org\\.pqrs\\.unknownapp.conkeror$"
+                                "^org\\.pqrs\\.unknownapp.conkeror$",
+                                "^com\\.neovide\\.neovide"
                             ]
                         }
                     ]
