@@ -1251,6 +1251,7 @@
                                 "^org\\.gnu\\.AquamacsEmacs$",
                                 "^org\\.gnu\\.Aquamacs$",
                                 "^org\\.pqrs\\.unknownapp\\.conkeror$",
+                                "^com\\.jetbrains\\.intellij\\.ce",
                                 "^com\\.neovide\\.neovide"
                             ]
                         }
