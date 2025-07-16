@@ -11,12 +11,12 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 ## PC Style
 ```
 karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/pc-style.json
+```
 ---
 
 ## Vim Esc for korean
 ```
 karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gyuha/karabiner-caplock-map/main/vim-esc.json
-```
 ```
 
  Open the above URL in a web browser. 
