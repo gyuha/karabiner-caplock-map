@@ -1,0 +1,26 @@
+{
+    "title": "ESC to English and ESC",
+    "rules": [
+        {
+            "description": "Change input source to English and send ESC when ESC is pressed",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "escape"
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        },
+                        {
+                            "select_input_source": {
+                                "language": "en"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
